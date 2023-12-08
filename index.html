@@ -3,35 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Prompt:wght@700&family=Quicksand:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Montserrat:wght@500;600&family=Noto+Sans+JP:wght@400;500;600;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Simplotel | Foods</title>
+
+    <title>Simplotel || Food</title>
   </head>
   <body>
     <nav class="nav_container">
-      <div class="menu_icon">
+      <div class="menu_items">
         <input type="checkbox" class="toggle-menu" />
         <span class="hamburger"></span>
+        <ul class="navigation_box">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#restaurant">Restaurant</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact Us">Contact Us</a></li>
+        </ul>
       </div>
-      <ul class="navigation_box">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#order">Order</a></li>
-        <li><a href="#food">Food</a></li>
-        <li><a href="#restaurant">Restaurant</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact Us">Contact Us</a></li>
-      </ul>
       <div class="navigation_icons">
         <a href="#call"
           ><span class="material-symbols-outlined"> call </span></a
@@ -43,7 +42,6 @@
     </nav>
     <section>
       <div class="landing_container">
-        <img src="./assets/img1.jpg" alt="" />
         <div class="landing_content">
           <h1>LOREM IPSUM</h1>
           <p>
@@ -54,6 +52,7 @@
         </div>
       </div>
     </section>
+
     <section>
       <div class="order_container">
         <h1>Order Now</h1>
@@ -69,19 +68,19 @@
           </div>
           <div class="food_card">
             <div>
-              <img src="./assets/img3.jpg" alt="" />
+              <img src="./assets/img2.jpg" alt="" />
             </div>
             <div>
-              <h2>BURGER</h2>
+              <h2>PIZZA</h2>
               <p>Lorem Ipsum has been the industry's standard dummy text</p>
             </div>
           </div>
           <div class="food_card">
             <div>
-              <img src="./assets/img2.jpg" alt="" />
+              <img src="./assets/img3.jpg" alt="" />
             </div>
             <div>
-              <h2>BURGER</h2>
+              <h2>PASTA</h2>
               <p>Lorem Ipsum has been the industry's standard dummy text</p>
             </div>
           </div>
@@ -90,17 +89,4 @@
       </div>
     </section>
   </body>
-  <!-- <script>
-    const toggleMenu = document.querySelector(".toggle-menu");
-    const navigationBox = document.querySelector(".navigation_box");
-
-    // Add an event listener to the checkbox to toggle the background color
-    toggleMenu.addEventListener("change", () => {
-      if (toggleMenu.checked) {
-        navigationBox.style.backgroundColor = "#your-desired-color"; // Change to your desired color
-      } else {
-        navigationBox.style.backgroundColor = ""; // Reset to the default color when unchecked
-      }
-    });
-  </script> -->
 </html>
